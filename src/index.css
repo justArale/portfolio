@@ -1,0 +1,111 @@
+@import "font.css";
+
+:root {
+  --color-black: #000;
+  --color-label: #666;
+  --color-hint: #999;
+  --color-link: #0055ff;
+  --color-pollzone: #305145;
+  --color-spotify: #4e4e2c;
+  --color-recipebook: #5b4938;
+  --color-game: #434365;
+  --color-pollzoneFill: #c8eade;
+  --color-spotifyFill: #f1f2a5;
+  --color-recipebookFill: #f5f0eb;
+  --color-gameFill: #d2d1ef;
+
+  --font-weight-medium: 500;
+  --font-weight-semiBold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 32px;
+
+  --font-family-main: "Montserrat", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+html {
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-family-main);
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+#root {
+  height: 100%;
+}
+
+.noUnderline {
+  text-decoration: none;
+}
+
+.title {
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}
+
+.bodyLarge {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin: 0;
+}
+
+.body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+}
+
+.bodyLink,
+.bodyLink > a {
+  margin: 0;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.label {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-semiBold);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-label);
+}
+
+.hint {
+  color: var(--color-hint);
+}
+
+.pollzone {
+  color: var(--color-pollzone);
+}
+
+.spotify {
+  color: var(--color-spotify);
+}
+
+.recipebook {
+  color: var(--color-recipebook);
+}
+
+.game {
+  color: var(--color-game);
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  body {
+    width: 73vw;
+  }
+}

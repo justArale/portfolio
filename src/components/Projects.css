@@ -1,0 +1,29 @@
+/* .header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pollzoneFiller {
+  background-color: var(--color-pollzoneFill);
+}
+
+.spotifyFiller {
+  background-color: var(--color-spotifyFill);
+}
+
+.recipebookFiller {
+  background-color: var(--color-recipebookFill);
+}
+
+.gameFiller {
+  background-color: var(--color-gameFill);
+}
+
+.projectBox {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border-radius: 24px;
+} */
