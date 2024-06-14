@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/game" element={<GamePage />} />
-        <Route path="recipe-book" element={<RecipeBookPage />} />
-        <Route path="spotify-project" element={<SpotifyProjectPage />} />
-        <Route path="pollZone" element={<PollZonePage />} />
+        <Route path="/recipe-book" element={<RecipeBookPage />} />
+        <Route path="/spotify-project" element={<SpotifyProjectPage />} />
+        <Route path="/pollZone" element={<PollZonePage />} />
       </Routes>
       <Footer />
     </div>

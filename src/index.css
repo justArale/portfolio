@@ -9,6 +9,10 @@
   --color-spotify: #4e4e2c;
   --color-recipebook: #5b4938;
   --color-game: #434365;
+  --color-pollzoneFill: #c8eade;
+  --color-spotifyFill: #f1f2a5;
+  --color-recipebookFill: #f5f0eb;
+  --color-gameFill: #d2d1ef;
 
   --font-weight-medium: 500;
   --font-weight-semiBold: 600;
@@ -40,6 +44,10 @@ body {
   height: 100%;
 }
 
+.noUnderline {
+  text-decoration: none;
+}
+
 .title {
   font-size: var(--font-size-xlarge);
   font-weight: var(--font-weight-bold);
@@ -49,6 +57,7 @@ body {
 .bodyLarge {
   font-size: var(--font-size-large);
   font-weight: var(--font-weight-bold);
+  color: var(--color-black);
   margin: 0;
 }
 
