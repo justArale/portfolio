@@ -1,9 +1,14 @@
-/* .header {
+.projectDetail {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 32px;
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+/* 
 .pollzoneFiller {
   background-color: var(--color-pollzoneFill);
 }

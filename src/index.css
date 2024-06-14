@@ -52,6 +52,7 @@ body {
   font-size: var(--font-size-xlarge);
   font-weight: var(--font-weight-bold);
   margin: 0;
+  line-height: 1.5em;
 }
 
 .bodyLarge {
