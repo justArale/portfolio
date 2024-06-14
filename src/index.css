@@ -104,8 +104,10 @@ body {
 }
 
 /* Responsive styles */
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   body {
     width: 73vw;
+    padding: 96px;
+    margin: 0 auto;
   }
 }
