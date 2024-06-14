@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.memoji {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}

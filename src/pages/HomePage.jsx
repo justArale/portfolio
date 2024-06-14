@@ -9,10 +9,11 @@ function HomePage() {
   return (
     <div>
       <Navbar />
-      <GamePage />
-      <RecipeBookPage />
-      <SpotifyProjectPage />
+
       <PollZonePage />
+      <SpotifyProjectPage />
+      <RecipeBookPage />
+      <GamePage />
     </div>
   );
 }
