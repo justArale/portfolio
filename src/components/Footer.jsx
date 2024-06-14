@@ -4,9 +4,10 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <p>
+      <p className="body">
         Say hi! By{" "}
         <a
+          className="bodyLink"
           target="_blank"
           href="mailto:just1arale@gmail.com?subject=Hello&body=Hi%20Arale!"
         >
@@ -14,6 +15,7 @@ function Footer() {
         </a>
         or{" "}
         <a
+          className="bodyLink"
           target="_blank"
           href="https://www.linkedin.com/in/s-kuechler-jr-fullstack-dev/"
         >
