@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/game" element={<GamePage />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="pollZone" element={<PollZonePage />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
