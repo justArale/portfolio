@@ -6,3 +6,9 @@
   flex-direction: column;
   gap: 32px;
 }
+
+@media (min-width: 768px) {
+  .page {
+    padding: 48px;
+  }
+}
