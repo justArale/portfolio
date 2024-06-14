@@ -12,3 +12,11 @@
     padding: 48px;
   }
 }
+
+@media (min-width: 1440px) {
+  .page {
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
