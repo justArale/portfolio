@@ -1,6 +1,8 @@
 import React from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
+import PollZoneHomepage from "../assets/screenshots/PollZone-Homepage.png";
+import PollZoneVote from "../assets/screenshots/PollZone-Vote.png";
 
 function PollZonePage() {
   return (
@@ -19,28 +21,35 @@ function PollZonePage() {
       <div className="homepageContent">
         <p className="label">Scope</p>
         <p className="body">
-          Final project for iron hack. together with anna furiosa. a project
-          that did technical this and that.
+          Final project for Ironhack. Together with Anna Hartkopf. A project
+          that comprehensively implements the full-stack MERN (MongoDB, Express,
+          React, Node.js) stack, showcasing the integration of each technology
+          to build a modern web application, including user authentication with
+          login and signup functionality.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={PollZoneHomepage} alt="PollZoneHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical bla bla</p>
+        <p className="label">Technical this that</p>
         <p className="body">
-          so we used this and that. I focused on that because of ... and anna
-          did this. we did it like this, but would now do it actually like that.
+          I focused on the backend and the database because of their importance
+          in ensuring smooth functionality, while Anna concentrated on building
+          the frontend. I also assisted with the design and the overlays, and
+          implemented the image upload feature with Cloudinary. Additionally, I
+          built the poll detail page using multiple conditional renderings.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={PollZoneVote} alt="PollZoneVote" />
       </div>
       <div className="homepageContent">
         <p className="label">Conclusion</p>
         <p className="body">
-          yeah was great. would say a bit. thanks to all the peeps and aliens
-          helping
+          Yeah, it was incredibly impressive to realize, while building, how
+          everything works together seamlessly. It also highlighted how much I
+          have already learned and can implement.
         </p>
       </div>
       <div className="homepageContent">
