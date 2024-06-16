@@ -17,7 +17,7 @@ function Footer() {
         <a
           className="bodyLink"
           target="_blank"
-          href="https://www.linkedin.com/in/s-kuechler-jr-fullstack-dev/"
+          href="https://www.linkedin.com/in/s-kuechler-fullstack-dev/"
         >
           LinkedIn
         </a>
