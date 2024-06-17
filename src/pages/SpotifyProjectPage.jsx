@@ -1,12 +1,14 @@
 import React from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
+import SpotifyHomepage from "../assets/screenshots/Spotify-Homepage.png";
+import SpotifyResult from "../assets/screenshots/Spotify-Result.jpg";
 
 function SpotifyProjectPage() {
   return (
     <div className="projectDetail">
-      <Link to="/">
-        <p className="bodyLink">← All projects</p>
+      <Link to="/" className="noUnderline">
+        <p className="bodyLink ">← All projects</p>
       </Link>
       <div className="intro">
         <div className="">
@@ -19,29 +21,52 @@ function SpotifyProjectPage() {
       <div className="homepageContent">
         <p className="label">Scope</p>
         <p className="body">
-          3th project for iron hack. together with anna furiosa and cami abuqu.
-          a project that did technical this and that.
+          3th project during Ironhack. Together with{" "}
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/anna-hartkopf/"
+            className="bodyLink"
+          >
+            Anna Hartkopf
+          </a>{" "}
+          and{" "}
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/cami-albuq/"
+            className="bodyLink"
+          >
+            Cami Albuquerque
+          </a>
+          .<br /> The task was to interacting with a web API by using REST
+          principles.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={SpotifyHomepage} alt="SpotifyHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical bla bla</p>
+        <p className="label">Technical this that</p>
         <p className="body">
-          so we used this and that. I focused on that because of ... cami did
-          that and anna did this. we did it like this, but would now do it
-          actually like that.
+          We utilized a React frontend application with a JSON file serving as
+          the backend, and integrated the Spotify for Developers Web API,
+          allowing us to add the created playlist (based on related artists and
+          Spotify's own danceability metric) to the own Spotify account. <br />
+          Additionally, Cami designed the interface using Tailwind CSS.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={SpotifyResult} alt="SpotifyResult" />
       </div>
       <div className="homepageContent">
         <p className="label">Conclusion</p>
         <p className="body">
-          yeah was great. would say a bit. thanks to all the peeps and aliens
-          helping
+          My first group project was educational on every level. We learned how
+          to integrate an API using AXIOS and how to communicate and work
+          dynamically as a team. This included organizing the project and
+          managing GitHub (git pull, git rebase, resolving merge conflicts,
+          etc.). <br />
+          Thank you both for the great experience, I couldn't have wished for a
+          better team!
         </p>
       </div>
       <div className="homepageContent">

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function RecipeBookPage() {
   return (
     <div className="projectDetail">
-      <Link to="/">
-        <p className="bodyLink">← All projects</p>
+      <Link to="/" className="noUnderline">
+        <p className="bodyLink ">← All projects</p>
       </Link>
       <div className="intro">
         <div className="">

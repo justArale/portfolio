@@ -7,8 +7,8 @@ import PollZoneVote from "../assets/screenshots/PollZone-Vote.png";
 function PollZonePage() {
   return (
     <div className="projectDetail">
-      <Link to="/">
-        <p className="bodyLink">← All projects</p>
+      <Link to="/" className="noUnderline">
+        <p className="bodyLink ">← All projects</p>
       </Link>
       <div className="intro">
         <div className="">
@@ -25,7 +25,7 @@ function PollZonePage() {
           that comprehensively implements the full-stack MERN (MongoDB, Express,
           React, Node.js) stack, showcasing the integration of each technology
           to build a modern web application, including user authentication with
-          login and signup functionality.
+          login and signup functionality with React Context.
         </p>
       </div>
       <div className="imageWrapper">
