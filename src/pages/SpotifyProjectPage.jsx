@@ -45,7 +45,7 @@ function SpotifyProjectPage() {
         <img src={SpotifyHomepage} alt="SpotifyHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical this that</p>
+        <p className="label">Technical this and that</p>
         <p className="body">
           We utilized a React frontend application with a JSON file serving as
           the backend, and integrated the Spotify for Developers Web API,

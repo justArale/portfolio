@@ -1,6 +1,8 @@
 import React from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
+import GameHomepage from "../assets/screenshots/Game-Homepage.png";
+import GameEndscreen from "../assets/screenshots/Game-Endscreen.png";
 
 function GamePage() {
   return (
@@ -19,28 +21,31 @@ function GamePage() {
       <div className="homepageContent">
         <p className="label">Scope</p>
         <p className="body">
-          First project for iron hack. together with anna furiosa and cami
-          abuqu. a project that did technical this and that.
+          The game is built with vanilla HTML, CSS, and JavaScript, with a focus
+          on using classes and object-oriented programming (OOP).
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={GameHomepage} alt="GameHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical bla bla</p>
+        <p className="label">Technical this and that</p>
         <p className="body">
-          so we used this and that. I focused on that because of ...and did
-          this. I did it like this, but would now do it actually like that.
+          For the highscore I used local storage and a conditional rendering.
+          This project also marked the beginning of my journey with Figma, where
+          the exact design was created and implemented by me accordingly. All
+          images (aliens, explosions, spaceship and projectiles) were created in
+          Figma and exported to the code.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={GameEndscreen} alt="GameEndscreen" />
       </div>
       <div className="homepageContent">
         <p className="label">Conclusion</p>
         <p className="body">
-          yeah was great. would say a bit. thanks to all the peeps and aliens
-          helping
+          Yes totally fun I would say. Thanks to all the peeps and aliens
+          helping.
         </p>
       </div>
       <div className="homepageContent">
