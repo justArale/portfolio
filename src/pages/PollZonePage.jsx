@@ -49,7 +49,8 @@ function PollZonePage() {
         <p className="body">
           Yeah, it was incredibly impressive to realize, while building, how
           everything works together seamlessly. It also highlighted how much I
-          have already learned and can implement.
+          have already learned and can implement. <br />
+          Many thanks to everyone who supported me during the course.
         </p>
       </div>
       <div className="homepageContent">

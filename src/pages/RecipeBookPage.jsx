@@ -1,6 +1,8 @@
 import React from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
+import RecipeBookHomepage from "../assets/screenshots/RecipeBook-Homepage.png";
+import RecipeBookRecipe from "../assets/screenshots/RecipeBook-Recipe.png";
 
 function RecipeBookPage() {
   return (
@@ -19,28 +21,33 @@ function RecipeBookPage() {
       <div className="homepageContent">
         <p className="label">Scope</p>
         <p className="body">
-          2nd project for iron hack. together with anna furiosa and cami abuqu.
-          a project that did technical this and that.
+          2nd project during the course of Ironhack and first React application.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={RecipeBookHomepage} alt="RecipeBookHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical bla bla</p>
+        <p className="label">Technical this and that</p>
         <p className="body">
-          so we used this and that. I focused on that because of ...and did
-          this. I did it like this, but would now do it actually like that.
+          For the database, I used a JSON file that can be temporarily modified
+          through local storage. This allows recipes to be updated, deleted, and
+          new ones added. The design was implemented with vanilla CSS. Today, I
+          would incorporate a global database and authentication so that changes
+          persist and everyone can customize and use their own version.
         </p>
       </div>
-      <div>
-        <p>here comes a screenshot</p>
+      <div className="imageWrapper">
+        <img src={RecipeBookRecipe} alt="RecipeBookRecipe" />
       </div>
       <div className="homepageContent">
         <p className="label">Conclusion</p>
         <p className="body">
-          yeah was great. would say a bit. thanks to all the peeps and aliens
-          helping
+          As my first React project, it was full of challenges. Finding the
+          appropriate syntax for the structure in the JSON file, assigning
+          different background colors to various recipes on the dashboard, and
+          rendering everything as desired made it the most personal project for
+          me.
         </p>
       </div>
       <div className="homepageContent">
@@ -49,7 +56,7 @@ function RecipeBookPage() {
           →{" "}
           <a
             className="bodyLink"
-            href="https://arale-spotify-project.netlify.app"
+            href="https://arales-recipe-book.netlify.app/"
             target="_blank"
           >
             Recipe Book
