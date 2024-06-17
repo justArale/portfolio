@@ -21,7 +21,7 @@ function SpotifyProjectPage() {
       <div className="homepageContent">
         <p className="label">Scope</p>
         <p className="body">
-          3th project during Ironhack. Together with{" "}
+          3rd project during Ironhack. Together with{" "}
           <a
             target="_blank"
             href="https://www.linkedin.com/in/anna-hartkopf/"
