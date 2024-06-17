@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import memoji from "../assets/icons/touch-icon.png";
+import memoji from "../../public/icons/touch-icon.png";
 
 function Navbar() {
   return (
