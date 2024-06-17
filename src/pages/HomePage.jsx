@@ -4,13 +4,17 @@ import "../components/Homepage.css";
 import { Link } from "react-router-dom";
 
 function HomePage() {
+  const jump = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="homepage">
       <Navbar />
       <div className="homepageContent">
         <p className="label">Selected Projects</p>
         <div className="projectOverview">
-          <Link to="/pollZone" className="noUnderline">
+          <Link to="/pollZone" className="noUnderline" onClick={() => jump()}>
             <div className="pollzoneFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">
@@ -23,7 +27,11 @@ function HomePage() {
               </p>
             </div>
           </Link>
-          <Link to="/spotify-project" className="noUnderline">
+          <Link
+            to="/spotify-project"
+            className="noUnderline"
+            onClick={() => jump()}
+          >
             <div className="spotifyFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">
@@ -36,7 +44,11 @@ function HomePage() {
               </p>
             </div>
           </Link>
-          <Link to="/recipe-book" className="noUnderline">
+          <Link
+            to="/recipe-book"
+            className="noUnderline"
+            onClick={() => jump()}
+          >
             <div className="recipebookFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">
@@ -49,7 +61,7 @@ function HomePage() {
               </p>
             </div>
           </Link>
-          <Link to="/game" className="noUnderline">
+          <Link to="/game" className="noUnderline" onClick={() => jump()}>
             <div className="gameFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">
