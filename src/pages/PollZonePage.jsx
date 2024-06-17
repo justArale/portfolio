@@ -32,7 +32,7 @@ function PollZonePage() {
         <img src={PollZoneHomepage} alt="PollZoneHomepage" />
       </div>
       <div className="homepageContent">
-        <p className="label">Technical this that</p>
+        <p className="label">Technical this and that</p>
         <p className="body">
           I focused on the backend and the database because of their importance
           in ensuring smooth functionality, while Anna concentrated on building
@@ -49,7 +49,8 @@ function PollZonePage() {
         <p className="body">
           Yeah, it was incredibly impressive to realize, while building, how
           everything works together seamlessly. It also highlighted how much I
-          have already learned and can implement.
+          have already learned and can implement. <br />
+          Many thanks to everyone who supported me during the course.
         </p>
       </div>
       <div className="homepageContent">
