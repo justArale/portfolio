@@ -6,7 +6,6 @@ This project showcases a collection of projects developed during my journey at I
 
 - [About the Project](#about-the-project)
 - [Project Details](#project-details)
-- [Technologies Used](#technologies-used)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
@@ -44,15 +43,6 @@ This repository contains several projects developed during the Ironhack course. 
 - **Description**: Browser-based game using vanilla HTML, CSS, and JavaScript.
 - **Technologies**: Object-oriented programming (OOP) principles and classes, local storage for high scores.
 - **Highlights**: Game design and implementation, Figma for design creation.
-
-## Technologies Used
-
-- HTML, CSS, JavaScript
-- React.js
-- Node.js, Express.js
-- MongoDB
-- Spotify Web API
-- Figma (for design)
 
 ## Acknowledgements
 
