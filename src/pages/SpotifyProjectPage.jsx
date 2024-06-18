@@ -43,7 +43,7 @@ function SpotifyProjectPage() {
           </>
         ) : (
           <p className="body">
-            3rd project during Ironhack. Together with{" "}
+            3rd project during Ironhack and developed together with{" "}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/anna-hartkopf/"
