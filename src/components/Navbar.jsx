@@ -9,7 +9,8 @@ function Navbar() {
       <div>
         <h1 className="bodyLarge">Hi! My Name is Susanne.</h1>
         <p className="body">
-          I’m a software engineer from Berlin with interest in [...]
+          I am a software engineer from Berlin with a passion for cycling and
+          building incredible things, whether it's from crafting to coding.
         </p>
       </div>
     </div>
