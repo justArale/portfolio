@@ -5,13 +5,17 @@ import PollZoneHomepage from "../assets/screenshots/PollZone-Homepage.png";
 import PollZoneVote from "../assets/screenshots/PollZone-Vote.png";
 
 function PollZonePage() {
-  const [isImageLoaded, setIsImageLoaded] = useState(true);
-  const [isTextLoaded, setIsTextLoaded] = useState(true);
+  const [isHomepageImageLoaded, setIsHomepageImageLoaded] = useState(false);
+  const [isVoteImageLoaded, setIsVoteImageLoaded] = useState(false);
+  const [isTextLoaded, setIsTextLoaded] = useState(false);
 
-  useEffect(() => {
-    setIsImageLoaded(false);
-    setIsTextLoaded(false);
-  }, [isImageLoaded, isTextLoaded]);
+  // const handleHomepageImageLoaded = () => {
+  //   setIsHomepageImageLoaded(true);
+  // };
+
+  // const handleVoteImageLoaded = () => {
+  //   setIsVoteImageLoaded(true);
+  // };
 
   return (
     <div className="projectDetail">
@@ -28,7 +32,7 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            Simple polls making to engage with your community.
+            Simple polls made to engage with your community.
           </p>
         )}
       </div>
@@ -43,20 +47,31 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            Final project for Ironhack. Together with Anna Hartkopf. A project
-            that comprehensively implements the full-stack MERN (MongoDB,
-            Express, React, Node.js) stack, showcasing the integration of each
-            technology to build a modern web application, including user
+            Final project for Ironhack and developed together with{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/anna-hartkopf/"
+              className="bodyLink"
+            >
+              Anna Hartkopf
+            </a>
+            . A project that comprehensively implements the full-stack MERN
+            (MongoDB, Express, React, Node.js) stack, showcasing the integration
+            of each technology to build a modern web application, including user
             authentication with login and signup functionality with React
             Context.
           </p>
         )}
       </div>
       <div className="imageWrapper">
-        {isImageLoaded ? (
+        {isHomepageImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={PollZoneHomepage} alt="PollZoneHomepage" />
+          <img
+            src={PollZoneHomepage}
+            alt="PollZoneHomepage"
+            // onLoad={handleHomepageImageLoaded}
+          />
         )}
       </div>
       <div className="homepageContent">
@@ -70,20 +85,23 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            I focused on the backend and the database because of their
-            importance in ensuring smooth functionality, while Anna concentrated
-            on building the frontend. I also assisted with the design and the
-            overlays, and implemented the image upload feature with Cloudinary.
-            Additionally, I built the poll detail page using multiple
-            conditional renderings.
+            I focused on the backend and the database and tested every route
+            with postman, while Anna concentrated on building the frontend. I
+            also assisted with the design and the overlays, and implemented the
+            image upload feature with Cloudinary. Additionally, I built the poll
+            detail page using multiple conditional renderings.
           </p>
         )}
       </div>
       <div className="imageWrapper">
-        {isImageLoaded ? (
+        {isVoteImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={PollZoneVote} alt="PollZoneVote" />
+          <img
+            src={PollZoneVote}
+            alt="PollZoneVote"
+            // onLoad={handleVoteImageLoaded}
+          />
         )}
       </div>
       <div className="homepageContent">
