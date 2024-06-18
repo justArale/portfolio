@@ -23,7 +23,7 @@ function HomePage() {
                 <h1 className="bodyLarge">PollZone</h1>
               </div>
               <p className="body pollzone">
-                Simple polls making to engage with your community.
+                Simple polls made to engage with your community.
               </p>
             </div>
           </Link>
