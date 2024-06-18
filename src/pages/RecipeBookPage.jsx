@@ -110,7 +110,7 @@ function RecipeBookPage() {
             →{" "}
             <a
               className="bodyLink"
-              href="https://arales-recipe-book.netlify.app/"
+              href="https://arale-recipe-book.netlify.app/"
               target="_blank"
             >
               Recipe Book
