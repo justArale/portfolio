@@ -31,9 +31,7 @@ function PollZonePage() {
             <div className="skeleton-text short"></div>
           </>
         ) : (
-          <p className="body">
-            Simple polls made to engage with your community.
-          </p>
+          <p className="body">React based Webapp for voting and polls</p>
         )}
       </div>
       <div className="homepageContent">
@@ -55,11 +53,10 @@ function PollZonePage() {
             >
               Anna Hartkopf
             </a>
-            . A project that comprehensively implements the full-stack MERN
-            (MongoDB, Express, React, Node.js) stack, showcasing the integration
-            of each technology to build a modern web application, including user
-            authentication with login and signup functionality with React
-            Context.
+            . A project that implements the full-stack MERN (MongoDB, Express,
+            React, Node.js) stack, showcasing the integration of each technology
+            to build a modern web application, including user authentication
+            with login and signup functionality with React Context.
           </p>
         )}
       </div>
@@ -69,7 +66,9 @@ function PollZonePage() {
         ) : (
           <img
             src={PollZoneHomepage}
-            alt="PollZoneHomepage"
+            alt="Screenshot of PollZone Homepage"
+            width="1096"
+            height="779"
             // onLoad={handleHomepageImageLoaded}
           />
         )}
@@ -85,11 +84,10 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            I focused on the backend and the database and tested every route
-            with postman, while Anna concentrated on building the frontend. I
-            also assisted with the design and the overlays, and implemented the
-            image upload feature with Cloudinary. Additionally, I built the poll
-            detail page using multiple conditional renderings.
+            I developed the backend and database, testing routes with Postman,
+            while my teammate built the frontend. I also assisted with design
+            and overlays, implemented image upload with Cloudinary, and created
+            the poll detail page using multiple conditional renderings.
           </p>
         )}
       </div>
@@ -114,10 +112,7 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            Yeah, it was incredibly impressive to realize, while building, how
-            everything works together seamlessly. It also highlighted how much I
-            have already learned and can implement. <br />
-            Many thanks to everyone who supported me during the course.
+            Waht i learned. what was good . what was bad. what
           </p>
         )}
       </div>
