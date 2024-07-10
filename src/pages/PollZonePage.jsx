@@ -112,7 +112,17 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            Waht i learned. what was good . what was bad. what
+            My work on the Pollzone project has been a rewarding experience,
+            marked by successful outcomes and valuable insights, also the
+            project won applause and the hackshow. Key lessons include the
+            importance of maintaining a simple structure, thorough code
+            commenting, and openness to diverse working styles. Despite facing
+            challenges, the experience has highlighted areas for improvement,
+            such as integrating Cloudinary and ensuring legal compliance for
+            uploads. Moving forward, future enhancements will include email
+            verification and notifications for new polls of your favorite
+            creator. Thanks to all people how supported me through the projects
+            and the whole bootcamp.
           </p>
         )}
       </div>
