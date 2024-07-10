@@ -20,7 +20,7 @@ function RecipeBookPage() {
       </Link>
       <div className="intro">
         <div className="">
-          <h1 className="title">Recipe Book</h1>
+          <h1 className="title">Bento Book</h1>
         </div>
         {isTextLoaded ? (
           <>
@@ -68,7 +68,14 @@ function RecipeBookPage() {
             deleted, and new ones added. The design was implemented with vanilla
             CSS. Today, I would incorporate a global database and authentication
             so that changes persist and everyone can customize and use their own
-            version.
+            version. (saved on branch: version-one)<br></br>
+            <br></br>Update: After completing the bootcamp, I updated the recipe
+            book with the skills I acquired afterward. I first built a backend
+            with all the necessary routes and adjusted the frontend accordingly.
+            Now, there is authentication, a RESTful API, React Context,
+            additional pages, of course, conditional rendering, and MongoDB
+            Atlas as the remote database. Additionally, I renamed it to Bento
+            Book and am currently working on the matching Bento Box CSS layout.
           </p>
         )}
       </div>
@@ -94,6 +101,11 @@ function RecipeBookPage() {
             different background colors to various recipes on the dashboard, and
             rendering everything as desired made it the most personal project
             for me.
+            <br></br>
+            <br></br>Update: Since this is a very practical project that is very
+            useful in everyday life, it is perfect for revisiting and further
+            perfecting everything I learned afterward. I am far from finished
+            and will surely enjoy working on it for a long time to come.
           </p>
         )}
       </div>
@@ -113,7 +125,7 @@ function RecipeBookPage() {
               href="https://arale-recipe-book.netlify.app/"
               target="_blank"
             >
-              Recipe Book
+              Bento Book
             </a>
             <br />→{" "}
             <a
@@ -121,10 +133,27 @@ function RecipeBookPage() {
               target="_blank"
               href="https://github.com/justArale/recipe-book-app"
             >
-              Recipe Book Frontend
+              Bento Book Frontend
             </a>{" "}
             <span className="hint">(GitHub)</span>
-            <br />→ <span className="hint">(No Backend)</span>
+            <br />→{" "}
+            <a
+              className="bodyLink"
+              target="_blank"
+              href="https://github.com/justArale/recipe-book-server"
+            >
+              Bento Book Backend
+            </a>{" "}
+            <span className="hint">(GitHub)</span>
+            <br />→{" "}
+            <a
+              className="bodyLink"
+              target="_blank"
+              href="https://github.com/justArale/recipe-book-app/tree/version-one"
+            >
+              Version One - Recipe Book
+            </a>{" "}
+            <span className="hint">(GitHub)</span>
           </p>
         )}
       </div>

@@ -54,7 +54,7 @@ function HomePage() {
                 <div className="iconWrapper">
                   <p className="bodyLarge">📖</p>
                 </div>
-                <h1 className="bodyLarge">Recipe Book</h1>
+                <h1 className="bodyLarge">Bento Book</h1>
               </div>
               <p className="body recipebook">
                 My very personal collection of favourite recipes.
