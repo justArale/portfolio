@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
 import SpotifyHomepage from "../assets/screenshots/Spotify-Homepage.png";
-import SpotifyResult from "../assets/screenshots/Spotify-Result.jpg";
+import SpotifyResult from "../assets/screenshots/Spotify-Result.png";
 
 function SpotifyProjectPage() {
   const [isImageLoaded, setIsImageLoaded] = useState(true);
