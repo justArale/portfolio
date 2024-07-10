@@ -88,6 +88,9 @@ function SpotifyProjectPage() {
             and Spotify's own danceability metric) to the own Spotify account.{" "}
             <br />
             Additionally, Cami designed the interface using Tailwind CSS.
+            <br />
+            Note: Saving the created playlist to your own Spotify account only
+            works as a registered beta tester.
           </p>
         )}
       </div>
