@@ -44,11 +44,7 @@ function HomePage() {
               </p>
             </div>
           </Link>
-          <Link
-            to="/recipe-book"
-            className="noUnderline"
-            onClick={() => jump()}
-          >
+          <Link to="/bento-book" className="noUnderline" onClick={() => jump()}>
             <div className="recipebookFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">

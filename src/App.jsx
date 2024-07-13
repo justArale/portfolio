@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import GamePage from "./pages/GamePage";
-import RecipeBookPage from "./pages/RecipeBookPage";
+import BentoBookPage from "./pages/BentoBookPage";
 import SpotifyProjectPage from "./pages/SpotifyProjectPage";
 import PollZonePage from "./pages/PollZonePage";
 import HomePage from "./pages/HomePage";
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/game" element={<GamePage />} />
-        <Route path="/recipe-book" element={<RecipeBookPage />} />
+        <Route path="/bento-book" element={<BentoBookPage />} />
         <Route path="/spotify-project" element={<SpotifyProjectPage />} />
         <Route path="/pollZone" element={<PollZonePage />} />
       </Routes>

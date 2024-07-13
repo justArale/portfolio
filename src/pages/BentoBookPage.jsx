@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
-import RecipeBookHomepage from "../assets/screenshots/RecipeBook-Homepage.png";
-import RecipeBookRecipe from "../assets/screenshots/RecipeBook-Recipe.png";
+import BentoBookHomepage from "../assets/screenshots/BentoBook-Homepage.png";
+import BentoBookRecipe from "../assets/screenshots/BentoBook-Recipe.png";
 
 function RecipeBookPage() {
   const [isImageLoaded, setIsImageLoaded] = useState(true);
@@ -50,7 +50,7 @@ function RecipeBookPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={RecipeBookHomepage} alt="RecipeBookHomepage" />
+          <img src={BentoBookHomepage} alt="Startpage of the bento book" />
         )}
       </div>
       <div className="homepageContent">
@@ -83,7 +83,7 @@ function RecipeBookPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={RecipeBookRecipe} alt="RecipeBookRecipe" />
+          <img src={BentoBookRecipe} alt="Recipe page of the bento book" />
         )}
       </div>
       <div className="homepageContent">
@@ -122,7 +122,7 @@ function RecipeBookPage() {
             →{" "}
             <a
               className="bodyLink"
-              href="https://arale-recipe-book.netlify.app/"
+              href="https://arale-bento-book.netlify.app/"
               target="_blank"
             >
               Bento Book
