@@ -48,7 +48,7 @@ function HomePage() {
             <div className="recipebookFiller projectBox">
               <div className="header">
                 <div className="iconWrapper">
-                  <p className="bodyLarge">📖</p>
+                  <p className="bodyLarge">🍱</p>
                 </div>
                 <h1 className="bodyLarge">Bento Book</h1>
               </div>
