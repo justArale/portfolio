@@ -112,7 +112,7 @@ function RecipeBookPage() {
             fixed recipes and local storage for temporary editing, creating, and
             deleting. Post-bootcamp, a backend was built and a remote database
             was implemented, elevating the project's functionality and at the
-            same time the name has been changed from recipe-book to bento book.{" "}
+            same time the name has been changed from recipe book to bento book.{" "}
             <br />• Future Plans: Upcoming enhancements include displaying the
             recipe overview in a true masonry layout, implementing a search bar,
             and adding detailed attributes such as effort, preparation, and
