@@ -45,7 +45,9 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            Final project for Ironhack and developed together with{" "}
+            PollZone is a React-based web application for creating and
+            participating in polls, developed over two weeks as the final
+            project for the Ironhack Bootcamp. Collaboratively built with{" "}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/anna-hartkopf/"
@@ -53,10 +55,10 @@ function PollZonePage() {
             >
               Anna Hartkopf
             </a>
-            . A project that implements the full-stack MERN (MongoDB, Express,
-            React, Node.js) stack, showcasing the integration of each technology
-            to build a modern web application, including user authentication
-            with login and signup functionality with React Context.
+            , the project aimed to implement the full MERN stack (MongoDB,
+            Express, React, Node.js) with a CRUD-API and user authentication.
+            After fulfilling initial requirements, features like image uploads
+            via Cloudinary and notifications with Toastify were added.
           </p>
         )}
       </div>
@@ -84,10 +86,17 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            I developed the backend and database, testing routes with Postman,
-            while my teammate built the frontend. I also assisted with design
-            and overlays, implemented image upload with Cloudinary, and created
-            the poll detail page using multiple conditional renderings.
+            PollZone's system architecture featured separate deployed
+            repositories for the frontend and backend. The technology stack
+            included the MERN stack, React Context/Routes, bcryptjs, MongoDB
+            Atlas, Cloudinary, Toastify, and CSS3 with Figma. Backend
+            development involved setting up models, database integration, and
+            creating authentication functions and routes, tested via Postman.
+            Frontend development began with Anna and later i assisted with the
+            design and build the multiple conditional rendering logic. Key
+            features included user roles for signup and login, and Cloudinary
+            for image uploads. Testing was conducted primarily with Postman,
+            focusing on backend routes and conditional query.
           </p>
         )}
       </div>
@@ -112,17 +121,14 @@ function PollZonePage() {
           </>
         ) : (
           <p className="body">
-            My work on the Pollzone project has been a rewarding experience,
-            marked by successful outcomes and valuable insights, also the
-            project won applause and the hackshow. Key lessons include the
-            importance of maintaining a simple structure, thorough code
-            commenting, and openness to diverse working styles. Despite facing
-            challenges, the experience has highlighted areas for improvement,
-            such as integrating Cloudinary and ensuring legal compliance for
-            uploads. Moving forward, future enhancements will include email
-            verification and notifications for new polls of your favorite
-            creator. Thanks to all people how supported me through the projects
-            and the whole bootcamp.
+            PollZone, a project that won the hackshow, successfully implemented
+            user roles, conditional rendering based on user ID and role, and
+            features to manage poll end-dates and times. Future enhancements
+            include email verification and notifications for new polls from
+            favorite creators. The project highlighted the importance of
+            adaptable working structures, clear code organization, and
+            comprehensive documentation, with plans for ongoing maintenance and
+            updates.
           </p>
         )}
       </div>
