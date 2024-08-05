@@ -41,8 +41,12 @@ function RecipeBookPage() {
           </>
         ) : (
           <p className="body">
-            2nd project during the course of Ironhack and first React
-            application.
+            The Bento Book project is a single-page application designed to
+            allow users to create and manage their favorite recipes. Bento Book
+            stands as a highly practical and useful project for everyday life,
+            with continuous development planned. The project's scope includes
+            building a login system and functionality to ensure recipe
+            management is restricted to authorized users.
           </p>
         )}
       </div>
@@ -63,19 +67,27 @@ function RecipeBookPage() {
           </>
         ) : (
           <p className="body">
-            For the database, I used a JSON file that can be temporarily
-            modified through local storage. This allows recipes to be updated,
-            deleted, and new ones added. The design was implemented with vanilla
-            CSS. Today, I would incorporate a global database and authentication
-            so that changes persist and everyone can customize and use their own
-            version. (saved on branch: version-one)<br></br>
-            <br></br>Update: After completing the bootcamp, I updated the recipe
-            book with the skills I acquired afterward. I first built a backend
-            with all the necessary routes and adjusted the frontend accordingly.
-            Now, there is authentication, a RESTful API, React Context,
-            additional pages, of course, conditional rendering, and MongoDB
-            Atlas as the remote database. Additionally, I renamed it to Bento
-            Book and am currently working on the matching Bento Box CSS layout.
+            The system architecture of Bento Book features a recipe overview
+            displayed in a masonry layout, with detailed views styled in a bento
+            box design. The technology stack comprises ReactJS, utilizing routes
+            and context for seamless navigation and state management, ExpressJS
+            with jsonwebtoken, Mongoose, and cross-origin for backend
+            operations, MongoDB Atlas for database management, and Cloudinary
+            for image storage and handling.
+            <br />• Backend Development: The backend supports full CRUD
+            operations on an API connected to MongoDB via Mongoose.
+            Authentication is handled with JWT and bcrypt, ensuring secure
+            access. Additionally, Cloudinary is integrated for image uploads,
+            complementing the database operations.
+            <br />• Frontend Development: The frontend employs context for
+            authentication, routes for side rendering, and connections to the
+            backend for CRUD operations. A loading skeleton is included to
+            provide visual feedback during data fetching, enhancing user
+            experience. Key Features: 1. Conditional Rendering: The application
+            renders content conditionally based on user authentication status
+            and recipe ownership. 2. Image Storage: Images are stored in a
+            remote database (Cloudinary), with API operations paralleling those
+            of MongoDB.
           </p>
         )}
       </div>
@@ -96,16 +108,17 @@ function RecipeBookPage() {
           </>
         ) : (
           <p className="body">
-            As my first React project, it was full of challenges. Finding the
-            appropriate syntax for the structure in the JSON file, assigning
-            different background colors to various recipes on the dashboard, and
-            rendering everything as desired made it the most personal project
-            for me.
-            <br></br>
-            <br></br>Update: Since this is a very practical project that is very
-            useful in everyday life, it is perfect for revisiting and further
-            perfecting everything I learned afterward. I am far from finished
-            and will surely enjoy working on it for a long time to come.
+            During the bootcamp, the project started with a JSON file containing
+            fixed recipes and local storage for temporary editing, creating, and
+            deleting. Post-bootcamp, a backend was built and a remote database
+            was implemented, elevating the project's functionality and at the
+            same time the name has been changed from recipe-book to bento book.{" "}
+            <br />• Future Plans: Upcoming enhancements include displaying the
+            recipe overview in a true masonry layout, implementing a search bar,
+            and adding detailed attributes such as effort, preparation, and
+            cooking time for each recipe. These features will significantly
+            enhance the user experience, making the application more robust and
+            user-friendly.
           </p>
         )}
       </div>
