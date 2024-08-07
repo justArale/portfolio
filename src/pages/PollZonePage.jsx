@@ -56,9 +56,10 @@ function PollZonePage() {
               Anna Hartkopf
             </a>
             , the project aimed to implement the full MERN stack (MongoDB,
-            Express, React, Node.js) with a CRUD-API and user authentication.
-            After fulfilling initial requirements, features like image uploads
-            via Cloudinary and notifications with Toastify were added.
+            Express, React, Node.js) with a RESTful APIs and user
+            authentication. After fulfilling initial requirements, features like
+            image uploads via Cloudinary and notifications with Toastify were
+            added.
           </p>
         )}
       </div>

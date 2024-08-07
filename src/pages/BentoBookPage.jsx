@@ -74,15 +74,14 @@ function RecipeBookPage() {
             with jsonwebtoken, Mongoose, and cross-origin for backend
             operations, MongoDB Atlas for database management, and Cloudinary
             for image storage and handling.
-            <br />• Backend Development: The backend supports full CRUD
-            operations on an API connected to MongoDB via Mongoose.
-            Authentication is handled with JWT and bcrypt, ensuring secure
-            access. Additionally, Cloudinary is integrated for image uploads,
-            complementing the database operations.
+            <br />• Backend Development: The backend supports full RESTful APIs
+            connected to MongoDB via Mongoose. Authentication is handled with
+            JWT and bcrypt, ensuring secure access. Additionally, Cloudinary is
+            integrated for image uploads, complementing the database operations.
             <br />• Frontend Development: The frontend employs context for
             authentication, routes for side rendering, and connections to the
-            backend for CRUD operations. A loading skeleton is included to
-            provide visual feedback during data fetching, enhancing user
+            backend for RESTful APIs operations. A loading skeleton is included
+            to provide visual feedback during data fetching, enhancing user
             experience. Key Features: 1. Conditional Rendering: The application
             renders content conditionally based on user authentication status
             and recipe ownership. 2. Image Storage: Images are stored in a
