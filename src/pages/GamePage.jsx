@@ -28,7 +28,7 @@ function GamePage() {
           </>
         ) : (
           <p className="body">
-            A small browser game for desktop and also first project.
+            A small browser game for desktop inspired by Space Invaders.
           </p>
         )}
       </div>
@@ -43,8 +43,9 @@ function GamePage() {
           </>
         ) : (
           <p className="body">
-            The game is built with vanilla HTML, CSS, and JavaScript, with a
-            focus on using classes and object-oriented programming (OOP).
+            The game is built with vanilla HTML, CSS, and JavaScript, with focus
+            on using DOM manipulation, classes and Object-Oriented Programming
+            (OOP).
           </p>
         )}
       </div>
@@ -66,9 +67,9 @@ function GamePage() {
           </>
         ) : (
           <p className="body">
-            For the highscore I used local storage and a conditional rendering.
-            This project also marked the beginning of my journey with Figma,
-            where the exact design was created and implemented by me
+            For the highscore I use the local storage and a conditional
+            rendering. This project also marked the beginning of my journey with
+            Figma, where the exact design was created and implemented by me
             accordingly. All images (aliens, explosions, spaceship and
             projectiles) were created in Figma and exported to the code.
           </p>
