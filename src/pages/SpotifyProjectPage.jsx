@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
-import SpotifyHomepage from "../assets/screenshots/Spotify-Homepage.png";
-import SpotifyResult from "../assets/screenshots/Spotify-Result.png";
+import SpotifyLandingpage from "../assets/screenshots/SpotifyProject-Landingpage.webp";
+import SpotifyResultpage from "../assets/screenshots/SpotifyProject-Resultpage.webp";
 
 function SpotifyProjectPage() {
   const [isImageLoaded, setIsImageLoaded] = useState(true);
@@ -68,7 +68,10 @@ function SpotifyProjectPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={SpotifyHomepage} alt="SpotifyHomepage" />
+          <img
+            src={SpotifyLandingpage}
+            alt="Landingpage of the spotify project"
+          />
         )}
       </div>
       <div className="homepageContent">
@@ -98,7 +101,10 @@ function SpotifyProjectPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={SpotifyResult} alt="SpotifyResult" />
+          <img
+            src={SpotifyResultpage}
+            alt="Resultpage of the spotify project"
+          />
         )}
       </div>
       <div className="homepageContent">
