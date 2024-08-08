@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
-import PollZoneHomepage from "../assets/screenshots/PollZone-Homepage.png";
-import PollZoneVote from "../assets/screenshots/PollZone-Vote.png";
+import PollZoneLandingpage from "../assets/screenshots/PollZone-Landingpage.webp";
+import PollZoneVote from "../assets/screenshots/PollZone-Vote.webp";
 
 function PollZonePage() {
   const [isHomepageImageLoaded, setIsHomepageImageLoaded] = useState(false);
@@ -68,7 +68,7 @@ function PollZonePage() {
           <div className="skeleton"></div>
         ) : (
           <img
-            src={PollZoneHomepage}
+            src={PollZoneLandingpage}
             alt="Screenshot of PollZone Homepage"
             width="1096"
             height="779"
