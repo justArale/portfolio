@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
-import BentoBookHomepage from "../assets/screenshots/BentoBook-Homepage.png";
-import BentoBookRecipe from "../assets/screenshots/BentoBook-Recipe.png";
+import BentoBookLandingpage from "../assets/screenshots/BentoBook-Landingpage.webp";
+import BentoBookDetailpage from "../assets/screenshots/BentoBook-Detailpage.webp";
 
 function RecipeBookPage() {
   const [isImageLoaded, setIsImageLoaded] = useState(true);
@@ -54,7 +54,7 @@ function RecipeBookPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={BentoBookHomepage} alt="Startpage of the bento book" />
+          <img src={BentoBookLandingpage} alt="Landingpage of the bento book" />
         )}
       </div>
       <div className="homepageContent">
@@ -94,7 +94,10 @@ function RecipeBookPage() {
         {isImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={BentoBookRecipe} alt="Recipe page of the bento book" />
+          <img
+            src={BentoBookDetailpage}
+            alt="Recipe page of Taiyaki from the bento book"
+          />
         )}
       </div>
       <div className="homepageContent">
