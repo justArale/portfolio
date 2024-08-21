@@ -60,7 +60,9 @@ function SpotifyProjectPage() {
               Cami Albuquerque
             </a>
             .<br /> The task was to interacting with a web API by using REST
-            principles.
+            principles. I restructured the project in TypeScript to challenge
+            myself further and to stay up to date with the most in-demand
+            programming languages.
           </p>
         )}
       </div>
@@ -85,15 +87,12 @@ function SpotifyProjectPage() {
           </>
         ) : (
           <p className="body">
-            We utilized a React frontend application with a JSON file serving as
-            the backend, and integrated the Spotify for Developers Web API,
-            allowing us to add the created playlist (based on related artists
-            and Spotify's own danceability metric) to the own Spotify account.{" "}
-            <br />
-            Additionally, Cami designed the interface using Tailwind CSS.
-            <br />
-            Note: Saving the created playlist to your own Spotify account only
-            works as a registered beta tester.
+            I integrated the Spotify for Developers Web API, allowing to create
+            a playlist based on a seed artist and the choosen mood (Spotify's
+            own danceability metric) and to save to the own Spotify account.
+            <br /> <br />
+            Technologies used: TypeScript, React, Axios, React Router, React
+            Context, Spotify Developer API
           </p>
         )}
       </div>
@@ -144,7 +143,29 @@ function SpotifyProjectPage() {
               href="https://arale-spotify-project.netlify.app"
               target="_blank"
             >
-              Playlist Creator
+              Spotify Project
+            </a>
+            {""}{" "}
+            <span className="hint">
+              (Saving the created playlist to the Spotify account only works for
+              registered beta testers)
+            </span>
+            <br />→{" "}
+            <a
+              className="bodyLink"
+              target="_blank"
+              href="https://github.com/justArale/spotify-project"
+            >
+              Spotify Project Frontend
+            </a>{" "}
+            <span className="hint">(GitHub)</span>
+            <br />→{" "}
+            <a
+              className="bodyLink"
+              href="https://arale-spotify-project-old.netlify.app"
+              target="_blank"
+            >
+              Version One - Playlist Creator
             </a>
             <br />→{" "}
             <a
@@ -152,7 +173,7 @@ function SpotifyProjectPage() {
               target="_blank"
               href="https://github.com/justArale/playlist-creator"
             >
-              Playlist Creator Frontend
+              Version One - Playlist Creator Frontend
             </a>{" "}
             <span className="hint">(GitHub)</span>
             <br />→{" "}
@@ -161,7 +182,7 @@ function SpotifyProjectPage() {
               target="_blank"
               href="https://github.com/annagy07/playlist-creator-backend"
             >
-              Playlist Creator Backend
+              Version One - Playlist Creator Backend
             </a>{" "}
             <span className="hint">(GitHub)</span>
           </p>
