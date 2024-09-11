@@ -69,24 +69,13 @@ function RecipeBookPage() {
           <p className="body">
             The system architecture of Bento Book features a recipe overview
             displayed in a masonry layout, with detailed views styled in a bento
-            box design. The technology stack comprises ReactJS, utilizing routes
-            and context for seamless navigation and state management, ExpressJS
-            with jsonwebtoken, Mongoose, and cross-origin for backend
-            operations, MongoDB Atlas for database management, and Cloudinary
-            for image storage and handling.
-            <br />• Backend Development: The backend supports full RESTful APIs
-            connected to MongoDB via Mongoose. Authentication is handled with
-            JWT and bcrypt, ensuring secure access. Additionally, Cloudinary is
-            integrated for image uploads, complementing the database operations.
-            <br />• Frontend Development: The frontend employs context for
-            authentication, routes for side rendering, and connections to the
-            backend for RESTful APIs operations. A loading skeleton is included
-            to provide visual feedback during data fetching, enhancing user
-            experience. Key Features: 1. Conditional Rendering: The application
-            renders content conditionally based on user authentication status
-            and recipe ownership. 2. Image Storage: Images are stored in a
-            remote database (Cloudinary), with API operations paralleling those
-            of MongoDB.
+            box design.
+            <br /> <br />
+            Technologies used backend: Express.js, JavaScript, Cors, JWT,
+            bcrypt, RESTful APIs via Mongoose to MongoDB Atlas, Cloudinary
+            <br /> <br />
+            Technologies used frontend: Vite, JavaScript, React, Axios, React
+            Router, React Context, MongoDB Atlas, Cloudinary
           </p>
         )}
       </div>
@@ -109,19 +98,24 @@ function RecipeBookPage() {
             <div className="skeleton-text short"></div>
           </>
         ) : (
-          <p className="body">
-            During the bootcamp, the project started with a JSON file containing
-            fixed recipes and local storage for temporary editing, creating, and
-            deleting. Post-bootcamp, a backend was built and a remote database
-            was implemented, elevating the project's functionality and at the
-            same time the name has been changed from recipe book to bento book.{" "}
-            <br />• Future Plans: Upcoming enhancements include displaying the
-            recipe overview in a true masonry layout, implementing a search bar,
-            and adding detailed attributes such as effort, preparation, and
-            cooking time for each recipe. These features will significantly
-            enhance the user experience, making the application more robust and
-            user-friendly.
-          </p>
+          <div>
+            <p className="body">
+              During the bootcamp, the project started with a JSON file
+              containing fixed recipes and local storage for temporary editing,
+              creating, and deleting. Post-bootcamp, a backend was built and a
+              remote database was implemented, elevating the project's
+              functionality and at the same time the name has been changed from
+              recipe book to bento book.{" "}
+            </p>
+            <p className="body">
+              Future Plans: Upcoming enhancements include displaying the recipe
+              overview in a true masonry layout, implementing a search bar, and
+              adding detailed attributes such as effort, preparation, and
+              cooking time for each recipe. These features will significantly
+              enhance the user experience, making the application more robust
+              and user-friendly.
+            </p>
+          </div>
         )}
       </div>
       <div className="homepageContent">
