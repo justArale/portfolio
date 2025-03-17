@@ -131,7 +131,7 @@ function RecipeBookPage() {
             →{" "}
             <a
               className="bodyLink"
-              href="https://arale-bento-book.netlify.app/"
+              href="https://bento-book.arale.space"
               target="_blank"
             >
               Bento Book
