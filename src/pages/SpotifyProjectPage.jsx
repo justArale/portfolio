@@ -140,7 +140,7 @@ function SpotifyProjectPage() {
             →{" "}
             <a
               className="bodyLink"
-              href="https://arale-spotify-project.netlify.app"
+              href="https://spotify-project.arale.space"
               target="_blank"
             >
               Spotify Project
