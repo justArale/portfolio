@@ -9,7 +9,7 @@ function Footer() {
         <a
           className="bodyLink"
           target="_blank"
-          href="mailto:just1arale@gmail.com?subject=Hello&body=Hi%20Arale!"
+          href="mailto:s.kuechler@arale.space?subject=Hello&body=Hi%20Arale!"
         >
           Email{" "}
         </a>
