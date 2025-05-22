@@ -33,6 +33,10 @@
   border-radius: 5px;
 }
 
+.sewdbFiller {
+  background-color: var(--color-sewdbFill);
+}
+
 .pollzoneFiller {
   background-color: var(--color-pollzoneFill);
 }

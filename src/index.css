@@ -5,10 +5,12 @@
   --color-label: #666;
   --color-hint: #999;
   --color-link: #0055ff;
+  --color-sewdb: #5f4e2e;
   --color-pollzone: #305145;
   --color-spotify: #4e4e2c;
   --color-recipebook: #5b4938;
   --color-game: #434365;
+  --color-sewdbFill: #f8f5e9;
   --color-pollzoneFill: #c8eade;
   --color-spotifyFill: #f1f2a5;
   --color-recipebookFill: #f5f0eb;
@@ -86,6 +88,10 @@ body {
 
 .hint {
   color: var(--color-hint);
+}
+
+.sewdb {
+  color: var(--color-sewdb);
 }
 
 .pollzone {

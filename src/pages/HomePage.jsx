@@ -14,6 +14,19 @@ function HomePage() {
       <div className="homepageContent">
         <p className="label">Selected Projects</p>
         <div className="projectOverview">
+          <Link to="/sewdb" className="noUnderline" onClick={() => jump()}>
+            <div className="sewdbFiller projectBox">
+              <div className="header">
+                <div className="iconWrapper">
+                  <p className="bodyLarge">🧵</p>
+                </div>
+                <h1 className="bodyLarge">SewDB</h1>
+              </div>
+              <p className="body sewdb">
+                Sewing pattern database to browse through and like favorites.
+              </p>
+            </div>
+          </Link>
           <Link to="/pollZone" className="noUnderline" onClick={() => jump()}>
             <div className="pollzoneFiller projectBox">
               <div className="header">
