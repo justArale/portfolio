@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../components/Projects.css";
 import { Link } from "react-router-dom";
+import SewDBLandingpage from "../assets/screenshots/SewDB-Landingpage.webp";
+import SewDBDetailpage from "../assets/screenshots/SewDB-Detailpage.webp";
 
 function SewDBPage() {
   const [isHomepageImageLoaded, setIsHomepageImageLoaded] = useState(false);
@@ -54,16 +56,16 @@ function SewDBPage() {
         )}
       </div>
       <div className="imageWrapper">
-        {/* {isHomepageImageLoaded ? (
+        {isHomepageImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
           <img
-            src={PollZoneLandingpage}
-            alt="Screenshot of PollZone Homepage"
+            src={SewDBLandingpage}
+            alt="Screenshot of SewDB Landingpage"
             width="1096"
             height="779"
           />
-        )} */}
+        )}
       </div>
       <div className="homepageContent">
         <p className="label">Technical this and that</p>
@@ -91,11 +93,11 @@ function SewDBPage() {
         )}
       </div>
       <div className="imageWrapper">
-        {/* {isVoteImageLoaded ? (
+        {isVoteImageLoaded ? (
           <div className="skeleton"></div>
         ) : (
-          <img src={PollZoneVote} alt="PollZoneVote" />
-        )} */}
+          <img src={SewDBDetailpage} alt="Patterndetailpage" />
+        )}
       </div>
       <div className="homepageContent">
         <p className="label">Conclusion</p>
