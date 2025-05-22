@@ -23,7 +23,7 @@ function HomePage() {
                 <h1 className="bodyLarge">SewDB</h1>
               </div>
               <p className="body sewdb">
-                Pattern database to browse and like favorite.
+                Sewing pattern database to browse through and like favorites.
               </p>
             </div>
           </Link>

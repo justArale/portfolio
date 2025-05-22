@@ -23,7 +23,9 @@ function SewDBPage() {
             <div className="skeleton-text short"></div>
           </>
         ) : (
-          <p className="body">React based Webapp for voting and polls</p>
+          <p className="body">
+            Full-stack Webapp to browse and like favorite patterns.
+          </p>
         )}
       </div>
       <div className="homepageContent">
@@ -37,21 +39,13 @@ function SewDBPage() {
           </>
         ) : (
           <p className="body">
-            PollZone is a React-based web application for creating and
-            participating in polls, developed over two weeks as the final
-            project for the Ironhack Bootcamp. Collaboratively built with{" "}
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/anna-hartkopf/"
-              className="bodyLink"
-            >
-              Anna Hartkopf
-            </a>
-            , the project aimed to implement the full MERN stack (MongoDB,
-            Express, React, Node.js) with a RESTful APIs and user
-            authentication. After fulfilling initial requirements, features like
-            image uploads via Cloudinary and notifications with Toastify were
-            added.
+            SewDB is designed as a full-fledged web application for that
+            displays my personal sewing pattern collections. The project focuses
+            on core features such as user verification, role-based access and
+            backend-based login. It is intentionally designed to cover essential
+            CRUD operations and content protection while leaving room for
+            modular expansion through features such as filtering, searching,
+            image carousel and liking.
           </p>
         )}
       </div>
@@ -78,17 +72,19 @@ function SewDBPage() {
           </>
         ) : (
           <p className="body">
-            PollZone's system architecture featured separate deployed
-            repositories for the frontend and backend. The technology stack
-            included the MERN stack, React Context/Routes, bcryptjs, MongoDB
-            Atlas, Cloudinary, Toastify, and CSS3 with Figma. Backend
-            development involved setting up models, database integration, and
-            creating authentication functions and routes, tested via Postman.
-            Frontend development began with Anna and later i assisted with the
-            design and build the multiple conditional rendering logic. Key
-            features included user roles for signup and login, and Cloudinary
-            for image uploads. Testing was conducted primarily with Postman,
-            focusing on backend routes and conditional query.
+            - The frontend is developed with React, Vite, and TypeScript, with
+            routing handled by React Router.
+            <br />- The backend follows a serverless architecture with the HONC
+            stack, consisting of Hono, Neon, Drizzle ORM, and Cloudflare Workers
+            and is deployed via Wrangler.
+            <br />- User authentication is managed with secure HTTP-only cookies
+            and JWTs.
+            <br />- Email verification is integrated into the signup process
+            using Resend and a generated verification token.
+            <br />- Images are stored and served using Cloudinary and displayed
+            with a carousel.
+            <br />- Styling is done with SASS, and API interactions are handled
+            via Axios.
           </p>
         )}
       </div>
@@ -109,14 +105,13 @@ function SewDBPage() {
           </>
         ) : (
           <p className="body">
-            PollZone, a project that won the hackshow, successfully implemented
-            user roles, conditional rendering based on user ID and role, and
-            features to manage poll end-dates and times. Future enhancements
-            include email verification and notifications for new polls from
-            favorite creators. The project highlighted the importance of
-            adaptable working structures, clear code organization, and
-            comprehensive documentation, with plans for ongoing maintenance and
-            updates.
+            SewDB is an ongoing personal project aimed at deepening my
+            understanding of modern web technologies. Through it, I've gained
+            hands-on experience with Cloudflare, PostgreSQL, verification flows
+            and image carousel. Currently, I'm working on implementing advanced
+            filtering and a dynamic search feature powered by API calls. The
+            project continues to grow as a space for experimentation and
+            learning.
           </p>
         )}
       </div>
