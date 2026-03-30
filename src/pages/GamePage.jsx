@@ -109,7 +109,7 @@ function GamePage() {
             →{" "}
             <a
               className="bodyLink"
-              href="https://arale.uber.space/alien-invasion/"
+              href="https://alien-invasion.arale.space/"
               target="_blank"
             >
               Alien Invasion
